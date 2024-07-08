@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+header, main, footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.search-box {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #444;
+}
+
+h2 {
+  margin-top: 0; /* Remove top margin for better flow */
+}
+
+.empty-message {
+  color: #ccc;
+  font-style: italic;
+}
+
+.back-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.back-link:hover {
+  color: #000;
+}
+input[type="text"] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px; /* Set a width for the input fields */
+}
+.predict-button {
+  padding: 10px 20px;
+  background-color: #4CAF50;  /* Green color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.predict-button:hover {
+  background-color: #3e8e41;  /* Darken green on hover */
+}
+
+nav {
+  background-color: #f2f2f2; /* Light gray background for navigation */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Make navigation a flexbox for horizontal layout */
+  justify-content: space-around; /* Distribute links evenly */
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Text color for links */
+  padding: 10px; /* Add padding for better spacing */
+}
+
+nav a:hover {
+  color: #000; /* Change link color on hover */
+  background-color: #e0e0e0; /* Add a subtle hover background effect */
+}
